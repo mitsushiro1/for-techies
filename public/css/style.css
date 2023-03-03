@@ -6,6 +6,7 @@ header, .project:not(:last-child) {
   );
 }
 
+
 .no-button {
   background: none;
   border: none;

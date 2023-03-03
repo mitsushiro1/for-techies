@@ -23,8 +23,9 @@
     </form>
   </div>
 
-  {{#if post.length}}
+ 
   <div class="col-md-6 post-list">
+     {{#if posts.length}}
     <h3>Posts:</h3>
 
     {{#each posts as |post|}}
@@ -36,9 +37,10 @@
         <button class="btn btn-sm btn-danger" data-id="{{post.id}}">DELETE</button>
       </div>
     </div>
+    
     {{/each}}
-  </div>
   {{/if}}
+  </div>
 </div>
 
 <script src="./js/profile.js"></script>
